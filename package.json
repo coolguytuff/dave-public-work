@@ -1,0 +1,14 @@
+{
+  "name": "dave-public-work",
+  "version": "0.1.0",
+  "description": "Public, standalone development tools from Dave V4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/check-dave-worktree.test.mjs",
+    "check": "node scripts/check-dave-worktree.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
